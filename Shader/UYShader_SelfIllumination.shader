@@ -7,6 +7,7 @@
 	}
 	SubShader 
 	{ 
+      Fog {Mode Off}
 		Tags { "QUEUE"="Geometry" "IGNOREPROJECTOR"="true" }
 		Pass {
 		Tags { "QUEUE"="Geometry" "IGNOREPROJECTOR"="true" }
